@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appcadernodigital.MateriasTerceiro">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+ 
+            <Label Text="Matérias regulares:"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Portugues" Clicked="Button_Clicked"/>
+            <Button Text="Matematica" Clicked="Button_Clicked_1"/>
+            <Button Text="Biologia" Clicked="Button_Clicked_2"/>
+            <Button Text="Fisica" Clicked="Button_Clicked_3"/>
+            <Button Text="Quimica" Clicked="Button_Clicked_4"/>
+            <Button Text="Sociologia" Clicked="Button_Clicked_5"/>
+            <Button Text="Filosofia" Clicked="Button_Clicked_6"/>
+            <Button Text="Historia" Clicked="Button_Clicked_7"/>
+            <Button Text="Geografia" Clicked="Button_Clicked_8"/>
+            <Button Text="Ingles" Clicked="Button_Clicked_9"/>
+            <Button Text=" Educaçao Fisica" Clicked="Button_Clicked_10"/>
+
+            <Label Text="Matérias do curso:"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Button Text="TCC" Clicked="Button_Clicked_11"/>
+            <Button Text="Qualidade e teste de Software" Clicked="Button_Clicked_12"/>
+            <Button Text="Internet" Clicked="Button_Clicked_13"/>
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
